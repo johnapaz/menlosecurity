@@ -1,0 +1,12 @@
+name: Unzip files
+
+on: push
+
+jobs:
+  file-extract:
+    runs-on:	ubuntu-latest
+    steps:
+      - name: Unzip
+        uses: TonyBogdanov/zip@1.0
+        with:
+          args: unzip -qq ./archive.zip -d ./
