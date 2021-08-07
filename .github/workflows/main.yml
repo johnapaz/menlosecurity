@@ -9,4 +9,4 @@ jobs:
       - name: Unzip
         uses: TonyBogdanov/zip@1.0
         with:
-          args: unzip -qq ./archive.zip -d ./
+          args: unzip -qq ./archive.zip -d ./fonts
